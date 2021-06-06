@@ -1,6 +1,6 @@
 .hero{
     overflow: hidden;
-    height: 480px;
+    height: 502px;
     background-color: var(--hero-header-bg);
     
     @media screen and (min-width:768px) {
@@ -48,9 +48,16 @@
 
 
 .hero__title-cl{
+    font-size: 45px;
    display: block;
     color: var(--accent-color);
 
+    @media screen and (min-width:768px) {
+        font-size: 35px;
+    }
+    @media screen and (min-width:1280px) {
+        font-size: 60px;
+    }
 }
 .hero__number-list{
     display: none;
@@ -68,8 +75,12 @@
     font-size: 8px;
     line-height: 1.25;
     text-align: right;
-
     color:var(--white-color);
+
+    @media screen and (min-width:1280px) {
+        font-size: 14px;
+        line-height: 1.3;
+    }
 }
 
 .hero__number-list-item::after{
@@ -92,6 +103,10 @@
     text-align: right;
     text-transform: uppercase;
     z-index: 5;
+    @media screen and (min-width:1280px) {
+        font-size: 46px;
+        line-height: 1.15;
+    }
 }
 
 
@@ -168,7 +183,7 @@ width:480px ;}
 
 .hero__images--circle{
     position: absolute;
-    top:50px;
+    top:75px;
     left:15px;
     z-index: 0;
     width: 346px;
@@ -195,10 +210,10 @@ width:480px ;}
 
 .hero__images--icecream{
     position: absolute;
-    top: 70px;
+    top: 92px;
     left: 100px;
     width: 171px;
-    height: 450px;
+    height: 410px;
     z-index: 2; 
 
     @media screen and (min-width:768px) {
