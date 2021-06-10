@@ -47,3 +47,23 @@ npm run dev
 - Изображения добавляйте в папку `src/images`, заранее оптимизировав их. Сборщик просто копирует
   используемые изображения чтобы не нагружать систему оптимизацией картинок, так как на слабых
   компьютерах это может занять прилично времени.
+
+// .is-open { // display: block; // position: fixed; // // height: 100vh; // z-index: 10; //
+padding-left: 20px; // padding-right: 20px; // overflow-y: scroll; // }
+
+// .menu-wrapper { // display: none; // width: 100%; // height: 100vw; // top: 0; // right: 0; //
+padding-top: 60px; // padding-left: 20px; // padding-right: 20px; // padding-bottom: 0; //
+background-color: var(--mobile-menu-bg); // animation: slide 100ms linear;
+
+// @media screen and (min-width: 768px) and (max-width: 1279px) { // width: 254px; // } // @media
+screen and (min-width: 1280px) { // width: auto; // height: auto; // background-color: transparent;
+// display: block; // padding: 0; // } // }
+
+position: fixed; display: block; width: 100%; height: 100vw; top: 0; right: 0; padding-top: 60px;
+padding-left: 20px; padding-right: 20px; padding-bottom: 0; background-color: var(--mobile-menu-bg);
+animation: slide 100ms linear; z-index: 10; overflow-y: scroll;
+
+@media screen and (min-width: 768px) and (max-width: 1279px) { width: 254px; }
+
+@media screen and (min-width: 1280px) { width: auto; height: auto; background-color: transparent;
+display: block; padding: 0; }
