@@ -1,11 +1,12 @@
 .about__section {
-  padding-top: 126px;
+  padding-top: 130px;
   background-color: var(--section-bg);
   @media screen and (max-width: 767px) {
     background-image: url(/images/about/about-background-image-mobile.png);
     background-position: center bottom 60px;
     background-repeat: no-repeat;
     background-size: 100% 133px;
+    padding-top: 125px;
     // background-size: cover;
   }
   @media (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -16,7 +17,7 @@
 
   @media screen and (min-width: 1280px) {
     background-image: url(/images/about/about-background-image-desktop.png);
-
+ padding-top: 125px;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 100% 534px;
@@ -34,7 +35,7 @@
       color: var(--white-color);
       background-color: var(--hero-header-bg);
     }
-    font-family: var(--accent-font-family);
+    font-family: var(--title-font);
     @include font(18px, 400, 1.16, 0.04em);
     text-align: center;
     text-transform: uppercase;
