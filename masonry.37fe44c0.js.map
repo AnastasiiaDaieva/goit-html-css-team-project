@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/masonry.js"],"names":["$","masonry","itemSelector","columnWidth","transitionDuration"],"mappings":";AAAAA,EAAE,SAASC,QAAQ,CACjBC,aAAc,cACdC,YAAa,IACbC,mBAAoB","file":"masonry.37fe44c0.js","sourceRoot":"../src","sourcesContent":["$('.grid').masonry({\n  itemSelector: '.grid__item',\n  columnWidth: 140,\n  transitionDuration: '0.8s'\n});\n"]}
